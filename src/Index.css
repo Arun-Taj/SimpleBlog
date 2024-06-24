@@ -190,3 +190,92 @@ textarea {
   overflow: hidden;
   overflow-y: auto;
 }
+.post .postTextContainer textarea{
+  word-wrap: break-word;
+  height: 100px;
+  max-height: 400px;
+  width: 95%;
+  resize: none;
+  padding-right: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .cpContainer, .homePage .post {
+    width: 95%;
+    padding: 15px;
+  }
+
+  nav {
+    height: 60px;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  .cpContainer h1, .cpContainer label, .loginPage p {
+    font-size: 20px;
+  }
+
+  .cpContainer button, .inputGp input, .inputGp textarea {
+    font-size: 16px;
+  }
+
+  .login-with-google-btn {
+    padding: 5px 12px 10px 36px;
+    font-size: 20px;
+  }
+
+  .deletePost button {
+    font-size: 25px;
+  }
+
+  .postHeader .title {
+    font-size: 18px;
+  }
+
+  .post .postTextContainer, .post .postTextContainer textarea {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  nav {
+    height: 50px;
+  }
+
+  a {
+    font-size: 18px;
+    margin: 5px;
+  }
+
+  .cpContainer, .homePage .post {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .cpContainer h1, .cpContainer label, .loginPage p {
+    font-size: 18px;
+  }
+
+  .cpContainer button, .inputGp input, .inputGp textarea {
+    font-size: 14px;
+  }
+
+  .login-with-google-btn {
+    padding: 5px 10px 8px 30px;
+    font-size: 18px;
+  }
+
+  .deletePost button {
+    font-size: 20px;
+  }
+
+  .postHeader .title {
+    font-size: 16px;
+  }
+
+  .post .postTextContainer, .post .postTextContainer textarea {
+    font-size: 14px;
+  }
+}
